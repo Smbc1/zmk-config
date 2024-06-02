@@ -39,11 +39,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0      &bt BT_SEL 1       &bt BT_SEL 2       &bt BT_SEL 3  &bt BT_SEL 4                    &trans     &trans      &trans     &trans    &trans    &trans
-&kp F1      &kp F2            &kp F3             &kp F4             &kp F5        &kp F6                          &kp F7     &kp F8      &kp F9     &kp F10   &kp F11   &kp F12
-&kp GRAVE   &kp EXCL          &kp AT             &kp HASH           &kp DOLLAR    &kp PRCNT                       &kp CARET  &kp AMPS    &kp ASTRK  &kp LPAR  &kp RPAR  &kp TILDE
-&trans      &ext_power EP_ON  &ext_power EP_OFF  &ext_power EP_TOG  &trans        &trans        &trans    &trans  &trans     &kp MINUS   &kp PLUS   &kp LBRC  &kp RBRC  &kp PIPE
-                                                 &trans             &trans        &trans        &trans    &trans  &trans     &kp DELETE  &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &trans     &trans      &trans     &ext_power EP_ON  &ext_power EP_OFF  &ext_power EP_TOG
+&kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                          &kp F7     &kp F8      &kp F9     &kp F10           &kp F11            &kp F12
+&kp GRAVE   &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR    &kp PRCNT                       &kp CARET  &kp AMPS    &kp ASTRK  &kp LPAR          &kp RPAR           &kp TILDE
+&trans      &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans     &kp MINUS   &kp PLUS   &kp LBRC          &kp RBRC           &kp PIPE
+                                        &trans        &trans        &trans        &trans    &trans  &trans     &kp DELETE  &trans
             >;
         };
 
@@ -56,11 +56,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans     &kp N1  &kp N2  &kp N3  &kp N4                &kp N5                                   &kp N6    &kp N7      &kp N8     &kp N9         &kp N0            &kp C_VOLUME_UP
-&kp GRAVE  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                    &trans    &kp PG_UP   &kp UP     &kp PG_DN      &trans            &kp C_VOL_DN
-&trans     &trans  &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET                        &kp HOME  &kp LEFT    &kp DOWN   &kp RIGHT      &kp END           &kp ASTERISK
-&trans     &trans  &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans    &trans  &kp PLUS  &kp MINUS   &kp EQUAL  &kp LESS_THAN  &kp GREATER_THAN  &kp BSLH
-                           &trans  &trans                &trans                 &trans    &trans  &trans    &kp DELETE  &trans
+&kp GRAVE  &kp N1          &kp N2          &kp N3           &kp N4                &kp N5                                   &kp N6    &kp N7      &kp N8         &kp N9            &kp N0     &kp C_VOLUME_UP
+&kp TAB    &trans          &kp UP_ARROW    &trans           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                    &trans    &kp PG_UP   &kp UP         &kp PG_DN         &trans     &kp C_VOL_DN
+&kp LSHFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_BRACKET      &kp RIGHT_BRACKET                        &kp HOME  &kp LEFT    &kp DOWN       &kp RIGHT         &kp END    &kp ASTERISK
+&kp LCTRL  &trans          &trans          &trans           &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans    &trans  &kp PLUS  &kp MINUS   &kp LESS_THAN  &kp GREATER_THAN  &kp EQUAL  &kp BSLH
+                                           &trans           &trans                &trans                 &trans    &trans  &trans    &kp DELETE  &trans
             >;
         };
     };
