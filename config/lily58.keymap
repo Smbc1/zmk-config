@@ -41,7 +41,7 @@
 &trans  &trans  &trans  &trans  &trans                &trans                                    &trans    &trans      &trans         &trans            &kp MINUS      &kp EQUAL
 &trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                     &trans    &kp PG_UP   &kp UP         &kp PG_DN         &trans         &kp BACKSLASH
 &trans  &trans  &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET                         &kp HOME  &kp LEFT    &kp DOWN       &kp RIGHT         &kp END        &trans
-&trans  &trans  &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans    &kp INS  &trans    &trans      &kp LESS_THAN  &kp GREATER_THAN  &kp BACKSLASH  &kp RSHFT
+&trans  &trans  &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans    &kp INS  &trans    &kp EQUAL   &kp LESS_THAN  &kp GREATER_THAN  &kp BACKSLASH  &kp RSHFT
                         &trans  &trans                &trans                 &trans    &trans   &trans    &kp DELETE  &trans
             >;
 
