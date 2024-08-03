@@ -1,0 +1,72 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/ext_power.h>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/outputs.h>
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            bindings = <
+&kp ESC    &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                         &kp N6  &kp N7    &kp N8         &kp N9   &kp N0    &kp GRAVE
+&kp TAB    &kp Q   &kp W   &kp E     &kp R     &kp T                          &kp Y   &kp U     &kp I          &kp O    &kp P     &kp MINUS
+&kp LSHFT  &kp A   &kp S   &kp D     &kp F     &kp G                          &kp H   &kp J     &kp K          &kp L    &kp SEMI  &kp SQT
+&kp LCTRL  &kp Z   &kp X   &kp C     &kp V     &kp B   &kp LBKT     &kp RBKT  &kp N   &kp M     &kp COMMA      &kp DOT  &kp FSLH  &kp RSHFT
+                           &kp LALT  &kp LGUI  &mo 1   &kp SPACE    &kp RET   &mo 2   &kp BSPC  &kp RS(RCTRL)
+            >;
+        };
+
+        lower_layer {
+            bindings = <
+&kp F1     &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                         &kp PLUS   &kp MINUS   &kp ASTERISK     &kp SLASH   &kp MINUS  &kp EQUAL
+&kp F7     &kp F8  &kp F9  &kp F10  &kp F11  &kp F12                        &kp KP_N7  &kp KP_N8   &kp KP_N9        &kp KP_N0   &trans     &kp BACKSLASH
+&kp LSHFT  &trans  &trans  &trans   &trans   &trans                         &kp KP_N4  &kp KP_N5   &kp KP_NUMBER_6  &trans      &trans     &trans
+&kp LCTRL  &trans  &trans  &trans   &trans   &trans   &trans    &kp EQUAL   &kp KP_N1  &kp KP_N2   &kp KP_N3        &kp KP_DOT  &trans     &kp RSHFT
+                           &trans   &trans   &trans   &trans    &kp RETURN  &trans     &kp DELETE  &trans
+            >;
+
+            label = "v";
+        };
+
+        raise_layer {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                &trans                                    &trans    &trans      &trans         &trans            &kp MINUS      &kp EQUAL
+&trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                     &trans    &kp PG_UP   &kp UP         &kp PG_DN         &trans         &kp BACKSLASH
+&trans  &trans  &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET                         &kp HOME  &kp LEFT    &kp DOWN       &kp RIGHT         &kp END        &trans
+&trans  &trans  &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans    &kp INS  &trans    &kp EQUAL   &kp LESS_THAN  &kp GREATER_THAN  &kp BACKSLASH  &kp RSHFT
+                        &trans  &trans                &trans                 &trans    &trans   &trans    &kp DELETE  &trans
+            >;
+
+            label = "^";
+        };
+
+        layer_3 {
+            bindings = <
+&bt BT_CLR  &trans  &trans  &trans  &trans  &trans                            &ext_power EP_TOG  &out OUT_TOG  &trans     &trans  &trans  &kp C_VOLUME_UP
+&trans      &trans  &trans  &trans  &trans  &trans                            &trans             &trans        &trans     &trans  &trans  &kp C_VOL_DN
+&trans      &trans  &trans  &trans  &trans  &trans                            &trans             &trans        &trans     &trans  &trans  &trans
+&trans      &trans  &trans  &trans  &trans  &trans  &bt BT_PRV    &bt BT_NXT  &trans             &trans        &trans     &trans  &trans  &trans
+                            &trans  &trans  &trans  &trans        &trans      &trans             &trans        &soft_off
+            >;
+
+            label = "s";
+        };
+    };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        layer3 {
+            if-layers = <1 2>;
+            then-layer = <3>;
+        };
+    };
+};
