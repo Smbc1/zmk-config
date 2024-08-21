@@ -37,11 +37,11 @@
 
         raise_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                &trans                                    &trans    &trans      &trans         &trans            &kp MINUS      &kp EQUAL
-&trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                     &trans    &kp PG_UP   &kp UP         &kp PG_DN         &trans         &kp BACKSLASH
-&trans  &trans  &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET                         &kp HOME  &kp LEFT    &kp DOWN       &kp RIGHT         &kp END        &trans
-&trans  &trans  &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans    &kp INS  &kp PLUS  &kp EQUAL   &kp LESS_THAN  &kp GREATER_THAN  &kp BACKSLASH  &kp RSHFT
-                        &trans  &trans                &trans                 &trans    &trans   &trans    &kp DELETE  &trans
+&trans  &trans  &trans  &trans                &trans                 &trans                     &trans    &trans      &trans         &trans            &kp MINUS      &kp EQUAL
+&trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans                     &trans    &kp PG_UP   &kp UP         &kp PG_DN         &trans         &kp BACKSLASH
+&trans  &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans                     &kp HOME  &kp LEFT    &kp DOWN       &kp RIGHT         &kp END        &trans
+&trans  &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans  &trans    &kp INS  &kp PLUS  &kp EQUAL   &kp LESS_THAN  &kp GREATER_THAN  &kp BACKSLASH  &kp RSHFT
+                        &trans                &trans                 &trans  &trans    &trans   &trans    &kp DELETE  &trans
             >;
 
             label = "^";
