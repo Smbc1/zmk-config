@@ -1,0 +1,8 @@
+# Copyright (c) 2024 Dmitrii Mozgovoi
+# SPDX-License-Identifier: MIT
+
+config SHIELD_DERGOSPLIT_LEFT
+    def_bool $(shields_list_contains,dergosplit_left)
+
+config SHIELD_DERGOSPLIT_RIGHT
+    def_bool $(shields_list_contains,dergosplit_right)
