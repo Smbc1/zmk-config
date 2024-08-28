@@ -1,5 +1,5 @@
 
-if SHIELD_DERGOSPLIT_LEFT
+if SHIELD_DERGOSPLIT_RIGHT
 
 config ZMK_KEYBOARD_NAME
     default "Dergosplit62"
