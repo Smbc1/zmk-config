@@ -30,6 +30,7 @@
         };
 
         upper_layer {
+            bindings = <
 &trans &trans &trans &trans &trans &trans &trans        &trans &trans &trans &trans &trans &trans &trans
 &trans &trans &trans &trans &trans &trans &trans        &trans &trans &trans &trans &trans &trans &trans
 &trans &trans &trans &trans &trans &trans &trans        &trans &trans &trans &trans &trans &trans &trans
@@ -39,6 +40,7 @@
         };
 
         lower_layer {
+            bindings = <
 &trans &trans &trans &trans &trans &trans &trans        &trans &trans &trans &trans &trans &trans &trans
 &trans &trans &trans &trans &trans &trans &trans        &trans &trans &trans &trans &trans &trans &trans
 &trans &trans &trans &trans &trans &trans &trans        &trans &trans &trans &trans &trans &trans &trans
