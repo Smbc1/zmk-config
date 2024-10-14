@@ -18,9 +18,9 @@
 #
 ---
 include:
-  - board: nice_nano_v2
+  - board: sparkfun_pro_micro_rp2040
     shield: lily58_left
-  - board: nice_nano_v2
+  - board: sparkfun_pro_micro_rp2040
     shield: lily58_right
-  - board: nice_nano_v2
+  - board: sparkfun_pro_micro_rp2040
     shield: settings_reset
