@@ -36,7 +36,7 @@
 &trans  &trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans            &trans    &kp PG_UP  &kp UP_ARROW  &kp PAGE_DOWN  &trans   &trans   &trans
 &trans  &trans  &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans            &kp HOME  &kp LEFT   &kp DOWN      &kp RIGHT      &kp END  &trans   &trans
         &trans  &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans            &kp PLUS  &kp MINUS  &kp EQUAL     &kp BACKSLASH  &trans   &trans
-                                &trans                &trans                 &mo 3   &trans    &trans    &trans     &trans        &trans
+                                &trans                &trans                 &mo 3   &trans    &trans    &trans     &kp DELETE    &trans
             >;
         };
 
