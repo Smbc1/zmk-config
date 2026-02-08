@@ -53,7 +53,7 @@
 &trans      &trans  &trans  &trans  &trans  &trans                            &trans        &trans  &trans     &trans  &trans  &kp C_VOL_DN
 &trans      &trans  &trans  &trans  &trans  &trans                            &trans        &trans  &trans     &trans  &trans  &trans
 &trans      &trans  &trans  &trans  &trans  &trans  &bt BT_PRV    &bt BT_NXT  &trans        &trans  &trans     &trans  &trans  &trans
-                            &trans  &trans  &trans  &trans        &trans      &trans        &trans  &soft_off
+                            &trans  &trans  &trans  &trans        &trans      &trans        &studio_unlock  &soft_off
             >;
 
             label = "s";
