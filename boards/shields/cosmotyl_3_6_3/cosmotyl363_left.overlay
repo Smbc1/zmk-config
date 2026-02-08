@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "cosmotyl363.dtsi"
+#include "cosmotyl_363.dtsi"
 
 &kscan0 {
     col-gpios
