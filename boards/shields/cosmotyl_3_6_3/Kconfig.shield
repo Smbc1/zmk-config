@@ -1,0 +1,8 @@
+# Copyright (c) 2024 Dmitrii Mozgovoi
+# SPDX-License-Identifier: MIT
+
+config SHIELD_COSMOTYL363_LEFT
+    def_bool $(shields_list_contains,cosmotyl363_left)
+
+config SHIELD_COSMOTYL363_RIGHT
+    def_bool $(shields_list_contains,cosmotyl363_right)

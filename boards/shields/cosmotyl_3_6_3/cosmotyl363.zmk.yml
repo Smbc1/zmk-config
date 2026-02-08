@@ -1,0 +1,12 @@
+file_format: "1"
+id: cosmotyle363
+name: Cosmotyl363
+type: shield
+url: https://github.com/Smbc1/zmk-config
+requires: [pro_micro]
+exposes: []
+features:
+  - keys
+siblings:
+  - dergosplit_left
+  - dergosplit_right

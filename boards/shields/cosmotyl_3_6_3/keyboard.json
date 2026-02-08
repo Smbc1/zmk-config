@@ -1,0 +1,10 @@
+{
+  "keyboard_name": "",
+  "url": "",
+  "maintainer": "qmk",
+  "layouts": {
+    "LAYOUT": {
+      "layout": [{"x":0, "y":1}, {"label":"esc", "x":1, "y":1}, {"label":"1", "x":2, "y":1}, {"label":"2", "x":3, "y":1}, {"label":"3", "x":4, "y":1}, {"label":"4", "x":5, "y":1}, {"label":"5", "x":6, "y":1}, {"label":"6", "x":9, "y":1}, {"label":"7", "x":10, "y":1}, {"label":"8", "x":11, "y":1}, {"label":"9", "x":12, "y":1}, {"label":"0", "x":13, "y":1}, {"label":"~", "x":14, "y":1}, {"x":15, "y":1}, {"x":0, "y":2}, {"label":"tab", "x":1, "y":2}, {"label":"q", "x":2, "y":2}, {"label":"w", "x":3, "y":2}, {"label":"e", "x":4, "y":2}, {"label":"r", "x":5, "y":2}, {"label":"t", "x":6, "y":2}, {"label":"y", "x":9, "y":2}, {"label":"u", "x":10, "y":2}, {"label":"i", "x":11, "y":2}, {"label":"o", "x":12, "y":2}, {"label":"p", "x":13, "y":2}, {"label":"-", "x":14, "y":2}, {"x":15, "y":2}, {"x":0, "y":3}, {"label":"shift", "x":1, "y":3}, {"label":"a", "x":2, "y":3}, {"label":"s", "x":3, "y":3}, {"label":"d", "x":4, "y":3}, {"label":"f", "x":5, "y":3}, {"label":"g", "x":6, "y":3}, {"label":"h", "x":9, "y":3}, {"label":"j", "x":10, "y":3}, {"label":"k", "x":11, "y":3}, {"label":"l", "x":12, "y":3}, {"label":";", "x":13, "y":3}, {"label":"'", "x":14, "y":3}, {"x":15, "y":3}, {"label":"ctrl", "x":1, "y":4}, {"label":"z", "x":2, "y":4}, {"label":"x", "x":3, "y":4}, {"label":"c", "x":4, "y":4}, {"label":"v", "x":5, "y":4}, {"label":"b", "x":6, "y":4}, {"label":"n", "x":9, "y":4}, {"label":"m", "x":10, "y":4}, {"label":",", "x":11, "y":4}, {"label":".", "x":12, "y":4}, {"label":"/", "x":13, "y":4}, {"label":"shift", "x":14, "y":4}, {"label":"alt", "x":3.5, "y":5}, {"label":"win", "x":4.5, "y":5}, {"label":"lower", "x":5.5, "y":5}, {"label":"space", "x":6.5, "y":5}, {"label":"enter", "x":8.5, "y":5}, {"label":"upper", "x":9.5, "y":5}, {"label":"bckps", "x":10.5, "y":5}, {"label":"super", "x":11.5, "y":5}]
+    }
+  }
+}
