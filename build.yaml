@@ -24,8 +24,6 @@ include:
   #    shield: lily58_right
   - board: nice_nano
     shield: cosmotyl363_left
-    snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nice_nano
     shield: cosmotyl363_right
   - board: nice_nano
