@@ -4,11 +4,13 @@
  * SPDX-License-Identifier: MIT
  */
 
+#include "cosmotyl363_layouts.dtsi"
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
     chosen {
         zmk,kscan = &kscan0;
+        zmk,physical-layout = &physical_layout0;
         zmk,matrix-transform = &default_transform;
     };
 

@@ -26,7 +26,10 @@ include:
     shield: cosmotyl363_left
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
+    artifact-name: cosmotyl_left_with_studio
   - board: nice_nano
     shield: cosmotyl363_right
+    artifact-name: cosmotyl_right_studio
   - board: nice_nano
     shield: settings_reset
+    artifact-name: settings_reset
