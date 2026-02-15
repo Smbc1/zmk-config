@@ -1,7 +1,7 @@
 #include <physical_layouts.dtsi>
 
 / {
-    cosmotyl363_physical: cosmotyl363_physical {
+    cosmotyl363_physical_layout: cosmotyl363_physical_layout {
         compatible = "zmk,physical-layout";
         display-name = "Cosmotyl363";
         kscan = <&kscan0>; // Label of the kscan node this layout uses
