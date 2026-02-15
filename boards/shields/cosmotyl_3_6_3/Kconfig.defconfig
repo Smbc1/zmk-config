@@ -13,5 +13,4 @@ if SHIELD_COSMOTYL_LEFT || SHIELD_COSMOTYL_RIGHT
 
 config ZMK_SPLIT
     default y
-
 endif
