@@ -1,6 +1,9 @@
 
 if SHIELD_COSMOTYL363_LEFT
 
+config ZMK_KEYBOARD_NAME
+    default "Cosmotyl363"
+
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
