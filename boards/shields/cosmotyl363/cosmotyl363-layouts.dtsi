@@ -1,11 +1,9 @@
 #include <physical_layouts.dtsi>
 
 / {
-    cosmotyl363_physical_layout: cosmotyl363_physical_layout {
+    cosmotyl363_physical: cosmotyl363_physical {
         compatible = "zmk,physical-layout";
-        display-name = "Cosmotyl363";
-        kscan = <&kscan0>; // Label of the kscan node this layout uses
-        transform = <&default_transform>; // Label of the matrix transform this layout uses
+        display-name = "Default";
 
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100  200    0       0     0     0>

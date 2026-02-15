@@ -7,11 +7,15 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "cosmotyl363-layouts.dtsi"
 
+&cosmotyl363_physical {
+    transform = <&default_transform>;
+};
+
 / {
     chosen {
 
         zmk,kscan = &kscan0;
-        zmk,physical-layout = &cosmotyl363_physical_layout;
+        zmk,physical-layout = &cosmotyl363_physical;
         zmk,matrix-transform = &default_transform;
     };
 
