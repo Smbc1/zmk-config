@@ -18,12 +18,12 @@
 #
 ---
 include:
-  - board: nice_nano
+  - board: nice_nano@1
     shield: cosmotyl363_left
     cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: cosmotyl363_left
-  - board: nice_nano
+  - board: nice_nano@1
     shield: cosmotyl363_right
     artifact-name: cosmotyl363_right
-  - board: nice_nano
+  - board: nice_nano@1
     shield: settings_reset
