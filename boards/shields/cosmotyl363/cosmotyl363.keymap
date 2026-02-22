@@ -29,5 +29,23 @@
 &bt BT_CLR_ALL  &trans        &bt BT_PRV    &bt BT_NXT    &trans        &trans  &trans  &trans  &trans        &trans  &bt BT_PRV  &bt BT_NXT  &trans  &bt BT_CLR_ALL
             >;
         };
+
+        layer_2 {
+            bindings = <
+                                &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+                                &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
     };
 };
